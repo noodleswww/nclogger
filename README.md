@@ -5,13 +5,13 @@
 
 ## install
 
-    npm install clogger
+    npm install nclogger
 
 
 ## using
 
 ```javascript
-import logger from 'clogger';
+import logger from 'clogger/src/logger-complied';
 
 logger.log('log');
 logger.info('info');
