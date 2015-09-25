@@ -1,0 +1,17 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "note logger and stdout line",
+  "repository": "",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "noodles",
+  "jest": {
+    "rootDir": "./js"
+  }
+}
