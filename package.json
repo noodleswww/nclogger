@@ -1,10 +1,10 @@
 {
-  "name": "clogger",
-  "version": "1.0.0",
+  "name": "nclogger",
+  "version": "0.0.1",
   "description": "note logger stdout line color for project",
   "main": "index",
   "directories": {
-    "test": "test"
+    "example": "example"
   },
   "dependencies": {
     "colors": "^1.1.2",
