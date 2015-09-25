@@ -1,5 +1,7 @@
 # clogger
 
+[![NPM](https://nodei.co/npm/nclogger.png)](https://nodei.co/npm/nclogger/)
+
 > logger your project es6
 
 
