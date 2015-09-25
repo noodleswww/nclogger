@@ -1,17 +1,5 @@
-# clogger
 
-> logger your project es6
-
-
-## install
-
-    npm install clogger
-
-
-## using
-
-```javascript
-import logger from 'clogger';
+import logger from '../index';
 
 logger.log('log');
 logger.info('info');
@@ -27,5 +15,3 @@ var err = new Error();
 err.name = 'errName';
 err.data = 'errData';
 logger.error(err);
-
-```

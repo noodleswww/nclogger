@@ -26,7 +26,7 @@ class Logger {
     }
 
     log() {
-        writeLog('info', arguments);
+        this.writeLog('info', arguments);
     }
 
     info() {
@@ -51,7 +51,7 @@ class Logger {
             return;
         }
         var infos = Array.prototype.slice.call(args);
-        var logs = infos.join(' ');
+        var logs = infos.pop();
         switch (type) {
             case 'info':
             case "debug":
@@ -59,9 +59,6 @@ class Logger {
                 break;
             case 'warn':
                 logs = logs.yellow;
-                break;
-            case 'error':
-                logs = logs.red;
                 break;
         }
         logs = this.format(logs);
